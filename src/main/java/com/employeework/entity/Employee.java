@@ -13,7 +13,7 @@ public class Employee {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     private Long id;
-
+//this is the entity layer
     @Column(name = "name", nullable = false)
     private String name;
 
